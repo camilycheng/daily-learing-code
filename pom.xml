@@ -13,6 +13,7 @@
     <module>cloudconsumerorder80</module>
     <module>common-api</module>
     <module>cloud-provider-payment8002</module>
+    <module>thread-learn</module>
   </modules>
 
   <packaging>pom</packaging>
