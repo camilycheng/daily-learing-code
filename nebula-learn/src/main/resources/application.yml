@@ -1,0 +1,14 @@
+nebula:
+  address[0]:
+    host: 192.168.130.197
+    port: 9669
+  username: root
+  password: nebula
+  reconnect: false
+  space: knowledge_extraction_platform
+  address[1]:
+    host: 192.168.130.198
+    port: 9669
+  address[2]:
+    host: 192.168.130.199
+    port: 9669

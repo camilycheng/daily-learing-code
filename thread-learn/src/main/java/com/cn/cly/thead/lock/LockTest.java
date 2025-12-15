@@ -1,6 +1,4 @@
-package com.cn.cly.lock;
-
-import com.cn.cly.TreadTest1;
+package com.cn.cly.thead.lock;
 
 import java.util.concurrent.locks.ReentrantLock;
 

@@ -1,4 +1,4 @@
-package com.cn.cly;
+package com.cn.cly.thead;
 
 /**
  * @ClassName: TreadTest

@@ -15,6 +15,7 @@
     <module>cloud-provider-payment8002</module>
     <module>thread-learn</module>
     <module>algorithm-learn</module>
+    <module>nebula-learn</module>
   </modules>
 
   <packaging>pom</packaging>

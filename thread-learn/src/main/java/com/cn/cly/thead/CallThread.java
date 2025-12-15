@@ -1,6 +1,4 @@
-package com.cn.cly;
-
-import sun.applet.Main;
+package com.cn.cly.thead;
 
 import java.util.concurrent.*;
 

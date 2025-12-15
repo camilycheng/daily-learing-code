@@ -1,4 +1,4 @@
-package com.cn.cly;
+package com.cn.cly.thead;
 
 /**
  * @ClassName: RunableThreadTeat
@@ -8,7 +8,7 @@ public class RunableThreadTest {
 
     public static void main(String[] args){
 
-        PrimeRunable primeRunable =  new PrimeRunable();
+        PrimeRunable primeRunable =  new RunableThreadTest().new PrimeRunable();
         Thread t1=new Thread(primeRunable);
         Thread t2=new Thread(primeRunable);
         Thread t3=new Thread(primeRunable);
@@ -16,7 +16,7 @@ public class RunableThreadTest {
         t2.start();
         t3.start();
     }
-}
+
 
 
 class PrimeRunable implements Runnable {
@@ -39,4 +39,6 @@ class PrimeRunable implements Runnable {
 //
 //        }
     }
+}
+
 }

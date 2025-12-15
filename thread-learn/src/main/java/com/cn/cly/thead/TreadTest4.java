@@ -1,6 +1,4 @@
-package com.cn.cly;
-
-import java.awt.font.LineBreakMeasurer;
+package com.cn.cly.thead;
 
 /**
  * @ClassName: TreadTest
