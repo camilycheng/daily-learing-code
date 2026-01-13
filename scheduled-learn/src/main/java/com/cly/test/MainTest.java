@@ -1,17 +1,19 @@
 package com.cly.test;
 
 import org.springframework.scheduling.annotation.Scheduled;
+import org.springframework.stereotype.Component;
 
 import java.util.Date;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter
+@Component
 public class MainTest {
 
 
 
-    @Scheduled(cron = "0 24 9-20  * * ?")
-    public void test(String i){
+    @Scheduled(cron = "0 40,10 9-20  * * ?")
+    public void test(){
 
         System.out.println("我执行了："+new Date());
     };
