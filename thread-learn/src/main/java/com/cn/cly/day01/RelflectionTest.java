@@ -1,6 +1,5 @@
 package com.cn.cly.day01;
 
-import org.junit.Test;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
@@ -10,7 +9,6 @@ import java.nio.charset.Charset;
 import static java.nio.charset.StandardCharsets.UTF_8;
 
 public class RelflectionTest {
-    @Test
     public void test1() {
         Person p1 = new Person("Tom", 11);
         p1.age = 10;
@@ -24,7 +22,6 @@ public class RelflectionTest {
 
     }
 
-    @Test
     public void test2() throws Exception {
         Class cla = Person.class;
         Constructor constructor = cla.getConstructor(String.class, int.class);
