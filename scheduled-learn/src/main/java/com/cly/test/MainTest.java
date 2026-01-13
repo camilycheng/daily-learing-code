@@ -10,7 +10,7 @@ public class MainTest {
 
 
 
-    @Scheduled(cron = "0 26 9-20  * * ?")
+    @Scheduled(cron = "0 24 9-20  * * ?")
     public void test(String i){
 
         System.out.println("我执行了："+new Date());
