@@ -1,25 +1,8 @@
 package com.cly.test;
 
-import org.springframework.scheduling.annotation.Scheduled;
-import org.springframework.stereotype.Component;
-
-import java.util.Date;
-
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter
-@Component
-public class MainTest {
-
-
-    private int executionCount = 0;
-
-    @Scheduled(cron = "0 40,10 9-20  * * ?")
-    public void test(){
-
-        executionCount++;
-        System.out.println("第" + executionCount + "次执行：" + new Date());
-    };
-
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
     public static void main(String[] args) {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.

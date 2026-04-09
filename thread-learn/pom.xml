@@ -60,6 +60,12 @@
             <version>RELEASE</version>
             <scope>compile</scope>
         </dependency>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.5.9</version>
+            <scope>compile</scope>
+        </dependency>
 
         <!-- 以下依赖可能不需要，因为父POM已经管理 -->
         <!-- 删除 tomcat-embed-core，通过 spring-boot-starter-web 间接引入 -->
