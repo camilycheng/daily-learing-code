@@ -18,6 +18,8 @@
         <module>scheduled-learn</module>
         <module>day-demo-code</module>
         <module>jwt-auth-demo</module>
+        <module>simple-ai-agent</module>
+        <module>video-dubbing</module>
     </modules>
 
     <packaging>pom</packaging>

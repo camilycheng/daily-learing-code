@@ -1,0 +1,259 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "BaseText",
+            "request": "launch",
+            "mainClass": "com.cly.algorithm.BaseText",
+            "projectName": "algorithm-learn"
+        },
+        {
+            "type": "java",
+            "name": "QuickSort",
+            "request": "launch",
+            "mainClass": "com.cly.algorithm.QuickSort",
+            "projectName": "algorithm-learn"
+        },
+        {
+            "type": "java",
+            "name": "PaymentMain8001",
+            "request": "launch",
+            "mainClass": "com.cly.springcloud.PaymentMain8001",
+            "projectName": "cloud-provider-payment8001"
+        },
+        {
+            "type": "java",
+            "name": "PaymentMain8002",
+            "request": "launch",
+            "mainClass": "com.cly.springcloud.PaymentMain8002",
+            "projectName": "cloud-provider-payment8002"
+        },
+        {
+            "type": "java",
+            "name": "OrderMain80",
+            "request": "launch",
+            "mainClass": "com.cly.springcloud.OrderMain80",
+            "projectName": "cloudconsumerorder80"
+        },
+        {
+            "type": "java",
+            "name": "BitSetDemo",
+            "request": "launch",
+            "mainClass": "com.cly.day260205.BitSetDemo",
+            "projectName": "day-demo-code"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "com.cly.test.Main",
+            "projectName": "day-demo-code"
+        },
+        {
+            "type": "java",
+            "name": "JwtAuthDemoApplication",
+            "request": "launch",
+            "mainClass": "com.cly.jwt.JwtAuthDemoApplication",
+            "projectName": "jwt-auth-demo"
+        },
+        {
+            "type": "java",
+            "name": "SqlBuildUtils",
+            "request": "launch",
+            "mainClass": "com.cn.cly.tool.SqlBuildUtils",
+            "projectName": "nebula-learn"
+        },
+        {
+            "type": "java",
+            "name": "TestDwsTableCreate",
+            "request": "launch",
+            "mainClass": "com.cn.cly.tool.TestDwsTableCreate",
+            "projectName": "nebula-learn"
+        },
+        {
+            "type": "java",
+            "name": "TestFileUtils",
+            "request": "launch",
+            "mainClass": "com.cn.cly.tool.TestFileUtils",
+            "projectName": "nebula-learn"
+        },
+        {
+            "type": "java",
+            "name": "MainTest",
+            "request": "launch",
+            "mainClass": "com.cly.test.MainTest",
+            "projectName": "scheduled-learn"
+        },
+        {
+            "type": "java",
+            "name": "ScheduledMain",
+            "request": "launch",
+            "mainClass": "com.cly.test.ScheduledMain",
+            "projectName": "scheduled-learn"
+        },
+        {
+            "type": "java",
+            "name": "SimpleAIAgentApplication",
+            "request": "launch",
+            "mainClass": "com.cly.aiagent.SimpleAIAgentApplication",
+            "projectName": "simple-ai-agent"
+        },
+        {
+            "type": "java",
+            "name": "LambdaTest",
+            "request": "launch",
+            "mainClass": "com.cn.cly.day01.LambdaTest",
+            "projectName": "thread-learn"
+        },
+        {
+            "type": "java",
+            "name": "StaticProxyTest",
+            "request": "launch",
+            "mainClass": "com.cn.cly.day01.StaticProxyTest",
+            "projectName": "thread-learn"
+        },
+        {
+            "type": "java",
+            "name": "ContainerNotSafeDemo",
+            "request": "launch",
+            "mainClass": "com.cn.cly.day02.ContainerNotSafeDemo",
+            "projectName": "thread-learn"
+        },
+        {
+            "type": "java",
+            "name": "DirectBufferMemory",
+            "request": "launch",
+            "mainClass": "com.cn.cly.day02.DirectBufferMemory",
+            "projectName": "thread-learn"
+        },
+        {
+            "type": "java",
+            "name": "GcOverheadTeat",
+            "request": "launch",
+            "mainClass": "com.cn.cly.day02.GcOverheadTeat",
+            "projectName": "thread-learn"
+        },
+        {
+            "type": "java",
+            "name": "JavaHeapSpace",
+            "request": "launch",
+            "mainClass": "com.cn.cly.day02.JavaHeapSpace",
+            "projectName": "thread-learn"
+        },
+        {
+            "type": "java",
+            "name": "MetaSpaceOOm",
+            "request": "launch",
+            "mainClass": "com.cn.cly.day02.MetaSpaceOOm",
+            "projectName": "thread-learn"
+        },
+        {
+            "type": "java",
+            "name": "StackOverFlowError",
+            "request": "launch",
+            "mainClass": "com.cn.cly.day02.StackOverFlowError",
+            "projectName": "thread-learn"
+        },
+        {
+            "type": "java",
+            "name": "BlockingQueueDemo",
+            "request": "launch",
+            "mainClass": "com.cn.cly.day03.BlockingQueueDemo",
+            "projectName": "thread-learn"
+        },
+        {
+            "type": "java",
+            "name": "ProductData",
+            "request": "launch",
+            "mainClass": "com.cn.cly.day03.ProductData",
+            "projectName": "thread-learn"
+        },
+        {
+            "type": "java",
+            "name": "GCTimeTest",
+            "request": "launch",
+            "mainClass": "com.cn.cly.jvm.GCTimeTest",
+            "projectName": "thread-learn"
+        },
+        {
+            "type": "java",
+            "name": "MethodTest",
+            "request": "launch",
+            "mainClass": "com.cn.cly.test.MethodTest",
+            "projectName": "thread-learn"
+        },
+        {
+            "type": "java",
+            "name": "CallThread",
+            "request": "launch",
+            "mainClass": "com.cn.cly.thead.CallThread",
+            "projectName": "thread-learn"
+        },
+        {
+            "type": "java",
+            "name": "MD5Util",
+            "request": "launch",
+            "mainClass": "com.cn.cly.thead.MD5Util",
+            "projectName": "thread-learn"
+        },
+        {
+            "type": "java",
+            "name": "QuestTest",
+            "request": "launch",
+            "mainClass": "com.cn.cly.thead.QuestTest",
+            "projectName": "thread-learn"
+        },
+        {
+            "type": "java",
+            "name": "RunableThreadTest",
+            "request": "launch",
+            "mainClass": "com.cn.cly.thead.RunableThreadTest",
+            "projectName": "thread-learn"
+        },
+        {
+            "type": "java",
+            "name": "TreadTest",
+            "request": "launch",
+            "mainClass": "com.cn.cly.thead.TreadTest",
+            "projectName": "thread-learn"
+        },
+        {
+            "type": "java",
+            "name": "TreadTest1",
+            "request": "launch",
+            "mainClass": "com.cn.cly.thead.TreadTest1",
+            "projectName": "thread-learn"
+        },
+        {
+            "type": "java",
+            "name": "TreadTest4",
+            "request": "launch",
+            "mainClass": "com.cn.cly.thead.TreadTest4",
+            "projectName": "thread-learn"
+        },
+        {
+            "type": "java",
+            "name": "LockTest",
+            "request": "launch",
+            "mainClass": "com.cn.cly.thead.lock.LockTest",
+            "projectName": "thread-learn"
+        },
+        {
+            "type": "java",
+            "name": "VideoDubbingApplication",
+            "request": "launch",
+            "mainClass": "com.cly.videodubbing.VideoDubbingApplication",
+            "projectName": "video-dubbing"
+        }
+    ]
+}
